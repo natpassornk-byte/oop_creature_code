@@ -51,6 +51,7 @@ if __name__ == "__main__":
     print("Slime should NOT be alive →", slime.is_alive())
     print()
 
+
     # Test 5: Dead creature cannot attack
     ghost = Creature("Ghost", 0, 10)
     knight = Creature("Knight", 50, 7)
